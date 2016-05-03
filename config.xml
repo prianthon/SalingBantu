@@ -1,7 +1,7 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="phonegap.id" version="1.0.0">
-  <name>PhoneGap</name>
-  <description>Hello World sample application that responds to the deviceready event.</description>
-  <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="salingbantu.prianthon.web.id" version="1.0.0">
+  <name>Saling Bantu</name>
+  <description>Saling Bantu adalah bentuk kolektif energi positif.</description>
+  <author href="http://phonegap.com" email="support@phonegap.com">TDK Industries</author>
   <content src="index.html"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
