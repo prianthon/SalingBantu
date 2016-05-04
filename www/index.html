@@ -37,19 +37,146 @@
     * Create your own at http://cspisawesome.com
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
-
+    <!--jstu-->
+    <link rel="stylesheet" href="assets/jquery-mobile/jquery.mobile.structure-1.3.1.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="assets/flex-slider/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+    <script src="assets/flex-slider/jquery.flexslider-min.js"></script>
+    <script src="js/main.js"></script>
+    <!--jstu-->
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
+    <title>Saling Bantu</title>
 </head>
 
 <body>
-    <div class="app">
-        <h1>PhoneGap</h1>
-        <div id="deviceready" class="blink">
-            <p class="event listening">Connecting to Device</p>
-            <p class="event received">Device is Ready</p>
-        </div>
+  <!--page-->
+  <div data-role="page" data-theme="a">
+    <!-- Side Navigation Panel -->
+    <div data-role="panel" id="sideNav" data-position="left">
+      <ul id="sideButtons">
+        <li>
+          <a href="#"><i class="icon-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="icon-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="icon-linkedin"></i></a>
+        </li>
+          <li>
+          <a href="#"><i class="icon-google-plus"></i></a>
+        </li>
+      </ul>
+      <ul id="sidePanel" class="clleft">
+        <li id="active"><a href="#"><i class="icon-home"></i> Beranda</a></li>
+        <li><a href="about.html"><i class="icon-lightbulb"></i> Tentang</a></li>
+        <li><a href="typography.html"><i class="icon-star"></i> Program</a></li>
+        <li><a href="typography.html"><i class="icon-font"></i> Bantuan</a></li>
+        <li><a href="contact.html"><i class="icon-envelope"></i> Kontak</a></li>
+      </ul>
     </div>
+    <!-- End Side Navigation -->
+    <!-- Header -->
+    <div data-role="header" data-position="fixed">
+      <h1>Saling Bantu</h1>
+      <a href="#sideNav" id="navIcon"><i class="icon-th-list"></i></a>
+    </div>
+    <!-- End Header -->
+    <!-- Content Start -->
+    <div data-role="content">
+
+      <!-- Slider Start -->
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="http://lorempixel.com/350/250/business" />
+          </li>
+          <li>
+            <img src="http://lorempixel.com/350/250/sports" />
+          </li>
+          <li>
+            <img src="http://lorempixel.com/350/250" />
+          </li>
+        </ul>
+      </div>
+      <!-- Slider End -->
+      <!--Site Slogan  -->
+      <!--<div class="ui-grid-solo">
+        <h1 class="intro">Saling bantu bla bla bla.</h1>
+        <a href="#" data-role="button" class="btn swatch-2">AKSI</a>
+      </div>-->
+      <!-- Slogan End -->
+      <!-- Services Block -->
+      <div class="section-header"><h2 class="title">Layanan</h2></div>
+        <!-- Block one -->
+        <div class="clleft blocks">
+           <div class="bg-round swatch-4 left">
+               <i class="icon icon-book"></i>
+            </div>
+            <h3>PYD</h3>
+            <p>Pagi Yang Dahsyat adalah sebuah program berbagi nasi yang dilakukan setiap pagi hari kepada kaum dhuafa, ponpes, panti asuhan, yatim dan piatu</p>
+        </div>
+        <!-- End Block One -->
+        <!-- Block Two -->
+        <div class="clleft blocks">
+           <div class="bg-round swatch-5 left">
+               <i class="icon icon-pencil"></i>
+            </div>
+            <h3>WaQu</h3>
+            <p>WaQu adalah wakaf Al-Qur'an dan kitab yang didistribusikan ke ponpes, tpq, masjid dst. Merupakan solusi fasih dalam baca Al-Qur'an</p>
+        </div>
+        <!-- End Block Twon -->
+        <!-- Block Three -->
+        <div class="clleft blocks">
+           <div class="bg-round swatch-7 left">
+               <i class="icon icon-star"></i>
+            </div>
+              <h3>de BABE</h3>
+              <p>de BABE adalah Sedekah Barang Bekas mulai dari pakaian hingga perabotan rumah tangga layak pakai</p>
+        </div>
+        <!-- End Block Three -->
+        <!--blok tambahan-->
+        <!-- Block one -->
+        <div class="clleft blocks">
+           <div class="bg-round swatch-4 left">
+               <i class="icon icon-book"></i>
+            </div>
+            <h3>PYD</h3>
+            <p>Pagi Yang Dahsyat adalah sebuah program berbagi nasi yang dilakukan setiap pagi hari kepada kaum dhuafa, ponpes, panti asuhan, yatim dan piatu</p>
+        </div>
+        <!-- End Block One -->
+        <!-- Block Two -->
+        <div class="clleft blocks">
+           <div class="bg-round swatch-5 left">
+               <i class="icon icon-pencil"></i>
+            </div>
+            <h3>WaQu</h3>
+            <p>WaQu adalah wakaf Al-Qur'an dan kitab yang didistribusikan ke ponpes, tpq, masjid dst. Merupakan solusi fasih dalam baca Al-Qur'an</p>
+        </div>
+        <!-- End Block Twon -->
+        <!-- Block Three -->
+        <div class="clleft blocks">
+           <div class="bg-round swatch-7 left">
+               <i class="icon icon-star"></i>
+            </div>
+              <h3>de BABE</h3>
+              <p>de BABE adalah Sedekah Barang Bekas mulai dari pakaian hingga perabotan rumah tangga layak pakai</p>
+        </div>
+        <!--blok tambahan-->
+
+        <hr/>
+        <div class="footer text-center">
+          <p>TDK INDUSTRIES</p>
+        </div><!-- /footer -->
+    </div>
+    <!-- End Content -->
+
+
+  </div>
+  <!-- /page -->
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
